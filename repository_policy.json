@@ -65,7 +65,6 @@
                 "AWS": [
                     "arn:aws:iam::${alm_account_id}:user/jmorris",
                     "arn:aws:iam::${alm_account_id}:user/jdenen",
-                    "arn:aws:iam::${alm_account_id}:user/ksmith",
                     "arn:aws:iam::${alm_account_id}:user/mchirita",
                     "arn:aws:iam::${alm_account_id}:root",
                     "arn:aws:iam::${alm_account_id}:user/smillard",

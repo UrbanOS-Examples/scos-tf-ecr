@@ -71,7 +71,6 @@
                     "arn:aws:iam::${alm_account_id}:user/smillard",
                     "arn:aws:iam::${alm_account_id}:user/cyeater",
                     "arn:aws:iam::${alm_account_id}:user/jlutz",
-                    "arn:aws:iam::${alm_account_id}:user/emoore",
                     "arn:aws:iam::${alm_account_id}:user/bbalser",
                     "arn:aws:iam::${alm_account_id}:user/jprem",
                     "arn:aws:iam::${alm_account_id}:user/afreeman",

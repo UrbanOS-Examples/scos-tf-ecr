@@ -65,19 +65,17 @@
             "Principal": {
                 "AWS": [
                     "arn:aws:iam::${alm_account_id}:user/jmorris",
-                    "arn:aws:iam::${alm_account_id}:user/jdenen",
                     "arn:aws:iam::${alm_account_id}:root",
                     "arn:aws:iam::${alm_account_id}:user/smillard",
-                    "arn:aws:iam::${alm_account_id}:user/bbalser",
                     "arn:aws:iam::${alm_account_id}:user/jprem",
                     "arn:aws:iam::${alm_account_id}:user/rjones",
                     "arn:aws:iam::${alm_account_id}:user/rboyapati",
                     "arn:aws:iam::${alm_account_id}:user/bbrewer",
                     "arn:aws:iam::${alm_account_id}:user/jolson",
-                    "arn:aws:iam::${alm_account_id}:user/plinville",
                     "arn:aws:iam::${alm_account_id}:user/nstevens",
                     "arn:aws:iam::${alm_account_id}:user/akucera",
-                    "arn:aws:iam::${alm_account_id}:user/tregan"
+                    "arn:aws:iam::${alm_account_id}:user/tregan",
+                    "arn:aws:iam::${alm_account_id}:user/abrock"
                 ]
             },
             "Action": [

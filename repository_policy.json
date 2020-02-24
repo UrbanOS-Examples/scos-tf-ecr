@@ -65,8 +65,6 @@
             "Principal": {
                 "AWS": [
                     "arn:aws:iam::${alm_account_id}:root",
-                    "arn:aws:iam::${alm_account_id}:user/smillard",
-                    "arn:aws:iam::${alm_account_id}:user/rboyapati",
                     "arn:aws:iam::${alm_account_id}:user/bbrewer",
                     "arn:aws:iam::${alm_account_id}:user/jolson",
                     "arn:aws:iam::${alm_account_id}:user/tregan",

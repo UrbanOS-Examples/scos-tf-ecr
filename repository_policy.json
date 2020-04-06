@@ -68,7 +68,6 @@
                     "arn:aws:iam::${alm_account_id}:user/bbrewer",
                     "arn:aws:iam::${alm_account_id}:user/jolson",
                     "arn:aws:iam::${alm_account_id}:user/tregan",
-                    "arn:aws:iam::${alm_account_id}:user/abrock",
                     "arn:aws:iam::${alm_account_id}:user/kcarrabine"
                 ]
             },

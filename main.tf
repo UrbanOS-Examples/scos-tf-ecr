@@ -7,14 +7,14 @@ variable "repository_name" {
 }
 
 locals {
-  policy_file = "${var.alm_account_id == "068920858268" ? "repository_policy.sandbox.json" : "repository_policy.json"}"
+  policy_file = var.alm_account_id == "068920858268" ? "repository_policy.sandbox.json" : "repository_policy.json"
 }
 
 data "template_file" "repository_policy" {
-  template = "${file("${path.module}/${local.policy_file}")}"
+  template = file("${path.module}/${local.policy_file}")
 
-  vars {
-    alm_account_id = "${var.alm_account_id}"
+  vars = {
+    alm_account_id = var.alm_account_id
   }
 }
 
@@ -23,6 +23,7 @@ resource "aws_ecr_repository" "repository" {
 }
 
 resource "aws_ecr_repository_policy" "restore_policy" {
-  repository = "${aws_ecr_repository.repository.name}"
-  policy     = "${data.template_file.repository_policy.rendered}"
+  repository = aws_ecr_repository.repository.name
+  policy     = data.template_file.repository_policy.rendered
 }
+

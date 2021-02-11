@@ -64,6 +64,7 @@
             "Effect": "Allow",
             "Principal": {
                 "AWS": [
+                    "AIDAI4PD32QMSC56NVQT6",
                     "arn:aws:iam::${alm_account_id}:root",
                     "arn:aws:iam::${alm_account_id}:user/jolson",
                     "arn:aws:iam::${alm_account_id}:user/tregan",
